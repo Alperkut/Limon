@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(224, 202, 2, 0.973);
+    font-size : 16px;
+    /**color**/
+    font-family: monospace;
+}
+#header-nav{
+    background: rgb(255, 255, 255) ;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url(../odtu.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+}
+.nav-brand{
+    float: right;
+}
+.item{
+    font-size: 20px;
+    text-align: center;
+    font: bold;
+}
+.jumbotron{
+    background: url(../Untitled-3.png) no-repeat;
+    height: 960px;
+    border: 2px solid black;
+    box-shadow: 0 0 50px #3f0c1f;
+}
+#menu,#fotograflar,#iletisim,#hakkimizda{
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+#sm-row,#rezervasyon-row,#konum-row {
+    background: url(../odtu.png) no-repeat;
+
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2px ;
+    box-shadow: 0 0 50px ;
+    background-position: center;
+}
+#menu-row{
+    background: url(../Untitled-3-Recovered.png) no-repeat;
+
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2px ;
+    box-shadow: 0 0 50px ;
+    background-position: center;
+}
+#menu-row span ,#rezervasyon-row span,#konum-row span, #sm-row span {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    position: absolute;
+    opacity: 0.8;
+    color: #ffffff;
+    overflow: hidden;
+}
+.panel-footer{
+    margin-top: 25px;
+    background-color: rgb(104, 97, 5);
+}
+section span{
+    text-align: center;
+    color: cornsilk;
+}
+#kahvalti ,#ogle,#aksam ,#ekstra {
+    background: url(../181819790_-aBLvgIvlxg2OGPosASQE25NZSpK-1G2eONx0wz0Kmk.png) no-repeat;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2px ;
+    box-shadow: 0 0 50px ;
+    background-position: center;
+    margin-top: 50px;
+}
+#kahvalti span ,#ogle span,#aksam span,#ekstra span{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    position: absolute;
+    opacity: 0.8;
+    color: #ffffff;
+    overflow: hidden;
+}
